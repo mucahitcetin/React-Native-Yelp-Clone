@@ -30,15 +30,18 @@ export default function SearchScreen() {
           ) : (
             <>
               <ResultList
-                title="Ekonomik Restoranlar"
+                title="🍴 Ekonomik Restoranlar"
+                titleColor="#D4F1C4"
                 results={filterResultsByPrice("₺")}
               />
               <ResultList
-                title="Orta Seviye Restoranlar"
+                title="🍽️ Orta Seviye Restoranlar"
+                titleColor="#CCE5FF"
                 results={filterResultsByPrice("₺₺")}
               />
               <ResultList
-                title="Lüks Restoranlar"
+                title="✨ Lüks Restoranlar"
+                titleColor="#FFE5B4"
                 results={filterResultsByPrice("₺₺₺")}
               />
             </>
